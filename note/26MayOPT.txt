@@ -1,0 +1,8 @@
+26 May
+php artisan make:model OPT -m
+
+php artisan make:controller OptsController
+
+= In Route
+
+    Route::gett('/generate'
