@@ -155,3 +155,9 @@ this method can't use in laravel 11
 => After Login Or Register ( Redirect )
 
 App > Providers > RouteServiceProvider > public const HOME = "/dashboards";
+
+----------------------
+=> Check Route
+
+php artisan route:clear
+php artisan route:cache

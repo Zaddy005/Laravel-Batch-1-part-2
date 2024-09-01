@@ -95,6 +95,7 @@ class RolesController extends Controller
         if($request->hasFile('image')){
             $file = $request->file('image');
             $filename = $file->getClientOriginalName();
+
             $imagenewname = uniqid($user_id).$role['id'].$filename;
             $file->move(public_path('assets/img/role'),$imagenewname);
 
